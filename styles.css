@@ -68,3 +68,18 @@ body {
         margin: 10rem auto;
     }
 }
+
+/** footer **/
+
+.footer {
+    background-color: hsl(218, 44%, 22%);
+    margin: 0;
+    padding: 2rem;
+    border-radius: 2rem;
+    color: hsl(218, 7%, 70%);
+}
+
+.footer__link {
+    text-decoration: none;
+    color: hsl(210, 22%, 93%);
+}
