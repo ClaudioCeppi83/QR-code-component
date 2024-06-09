@@ -58,6 +58,6 @@ In this example, the justify-content: space-around property distributes the QR c
 ## Author
 
 * Website - [Claudio Ceppi](https://github.com/erceppi/)
-* Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/erceppi)
+* Frontend Mentor - [@erceppi](https://www.frontendmentor.io/profile/erceppi)
 
 I hope this README provides a clear overview of my QR code component solution!
