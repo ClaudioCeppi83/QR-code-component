@@ -1,17 +1,9 @@
-:root {
-    --mainfont: "Outfit", sans-serif;
-    --White: hsl(0, 0%, 100%);
-    --Lightgray: hsl(212, 45%, 89%);
-    --Grayishblue: hsl(220, 15%, 55%);
-    --Darkblue: hsl(218, 44%, 22%);
-}
-
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-*, *::before, *::after {
+    *, *::before, *::after {
     box-sizing: inherit;
 }
 
@@ -20,32 +12,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: var(--mainfont);
+    font-family: "Outfit", sans-serif;
     font-size: 1.6rem;
-    background-color: var(--Lightgray);
+    background-color: hsl(212, 45%, 89%);
 }
-
-/** container **/
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: var(--White);
+    background-color: hsl(0, 0%, 100%);
     margin: 10rem 5rem;
     padding: 2rem;
     border-radius: 2rem;
     max-width: 48rem;
 }
 
-/** image **/
-
 .container__qr {
     max-width: 100%;
     border-radius: 1.5rem;
 }
-
-/** text **/
 
 .container__text {
     display: flex;
@@ -55,35 +41,30 @@ body {
     align-items: center;
 }
 
+.container__text--title,
+.container__text--paragraphs {
+    text-align: center;
+}
+
 .container__text--title {
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
-    color: var(--Darkblue);
+    color: hsl(218, 44%, 22%);
 }
 
 .container__text--paragraphs {
     font-size: 1.8rem;
     font-weight: 400;
-    text-align: center;
-    color: var(--Grayishblue);
+    color: hsl(220, 15%, 55%);
 }
 
-/** Desktop Screen Size **
-
-@media (min-width: 480px) {
-
+@media (min-width: 596px) {
     body {
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .container{
-        display: flex;
-        flex-direction: column;
+    .container {
         margin: 10rem auto;
-        flex-grow: calc();
     }
 }
