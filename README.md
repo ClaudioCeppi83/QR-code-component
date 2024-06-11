@@ -20,7 +20,7 @@ This is a solution to the QR code component challenge on Frontend Mentor [https:
 
 ### Links
 
-- Solution URL: [QR Componet final solution](https://erceppi.github.io/QR-code-component)
+- Solution URL: [QR Componet final solution](https://ClaudioCeppi83.github.io/QR-code-component)
 
 ## My process
 
@@ -57,7 +57,7 @@ In this example, the justify-content: space-around property distributes the QR c
 
 ## Author
 
-* Website - [Claudio Ceppi](https://github.com/erceppi/)
+* Website - [Claudio Ceppi](https://github.com/ClaudioCeppi83/)
 * Frontend Mentor - [@erceppi](https://www.frontendmentor.io/profile/erceppi)
 
 I hope this README provides a clear overview of my QR code component solution!
